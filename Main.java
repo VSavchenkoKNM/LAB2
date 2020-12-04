@@ -57,7 +57,7 @@ public class Main{
         System.out.println("Type hours: ");
         Integer hours= scanner.nextInt();
         for(int i=0;i<arraySize;i++){
-               if(array[i].getHours()>hours&array[i].getPunkt().equals(punkt)){
+               if(array[i].getHours()>=hours&array[i].getPunkt().equals(punkt)){
                 System.out.println(array[i].ToString()); }
         }
     }
